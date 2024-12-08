@@ -1,2 +1,2 @@
-# Introduction
-Just An Elctrona app for : [OpenGuessr](https://openguessr.com/)
+ # Introduction
+Just An Elctron app for : [OpenGuessr](https://openguessr.com/)
