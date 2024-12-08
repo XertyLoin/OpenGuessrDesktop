@@ -1,0 +1,36 @@
+{
+  "name": "openguessr",
+  "version": "0.0.1",
+  "description": "an DesktopVersion of openGuessr",
+  "main": "index.js",
+  "author": "Xerty",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^33.2.1",
+    "electron-builder": "^25.1.8"
+  },
+  "build": {
+    "appId": "com.xerty.application",
+    "productName": "OpenGuessr",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "**/*"
+    ],
+    "win": {
+      "target": "nsis",
+      "icon": "assets/icon.ico"
+    },
+    "mac": {
+      "target": "dmg"
+    },
+    "linux": {
+      "target": "AppImage"
+    }
+  },
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  }
+}
